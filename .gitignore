@@ -48,3 +48,5 @@ temp/
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+agents/**/auth-profiles.json
+agents/**/sessions/

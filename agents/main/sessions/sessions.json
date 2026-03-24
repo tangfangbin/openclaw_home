@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "596f7da3-6c75-474f-a07f-55030c902e9c",
-    "updatedAt": 1774365337794,
+    "updatedAt": 1774372244896,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax-portal:default",
@@ -15,7 +15,10 @@
     "origin": {
       "provider": "webchat",
       "surface": "webchat",
-      "chatType": "direct"
+      "chatType": "direct",
+      "label": "heartbeat",
+      "from": "heartbeat",
+      "to": "heartbeat"
     },
     "sessionFile": "/Users/blade/.openclaw/agents/main/sessions/596f7da3-6c75-474f-a07f-55030c902e9c.jsonl",
     "compactionCount": 0,
@@ -117,13 +120,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1774365316892,
+    "startedAt": 1774372235393,
     "modelProvider": "minimax-portal",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774365316888,
+      "generatedAt": 1774372235382,
       "sessionId": "596f7da3-6c75-474f-a07f-55030c902e9c",
       "sessionKey": "agent:main:main",
       "provider": "minimax-portal",
@@ -143,9 +146,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 26233,
-        "projectContextChars": 11477,
-        "nonProjectContextChars": 14756
+        "chars": 27415,
+        "projectContextChars": 12669,
+        "nonProjectContextChars": 14746
       },
       "injectedWorkspaceFiles": [
         {
@@ -160,8 +163,8 @@
           "name": "SOUL.md",
           "path": "/Users/blade/.openclaw/workspace/SOUL.md",
           "missing": false,
-          "rawChars": 1664,
-          "injectedChars": 1664,
+          "rawChars": 2856,
+          "injectedChars": 2856,
           "truncated": false
         },
         {
@@ -357,19 +360,19 @@
         ]
       }
     },
-    "inputTokens": 7534,
-    "outputTokens": 362,
-    "cacheRead": 10498,
+    "inputTokens": 30104,
+    "outputTokens": 342,
+    "cacheRead": 10775,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0.04140099,
-    "totalTokens": 17989,
+    "estimatedCostUsd": 0.15376569,
+    "totalTokens": 25914,
     "totalTokensFresh": true,
-    "endedAt": 1774365337777,
-    "runtimeMs": 20885
+    "endedAt": 1774372244876,
+    "runtimeMs": 9483
   },
   "agent:main:feishu:direct:ou_7a1fdc28fc008f1c4787cccb092f3124": {
     "sessionId": "7838dc80-5bfa-4397-ab36-75e10b3f816c",
-    "updatedAt": 1774365660036,
+    "updatedAt": 1774372454305,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax-portal:default",
@@ -493,13 +496,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1774365616470,
+    "startedAt": 1774372451501,
     "modelProvider": "minimax-portal",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774365616466,
+      "generatedAt": 1774372451496,
       "sessionId": "7838dc80-5bfa-4397-ab36-75e10b3f816c",
       "sessionKey": "agent:main:feishu:direct:ou_7a1fdc28fc008f1c4787cccb092f3124",
       "provider": "minimax-portal",
@@ -519,9 +522,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 25994,
-        "projectContextChars": 11477,
-        "nonProjectContextChars": 14517
+        "chars": 27176,
+        "projectContextChars": 12669,
+        "nonProjectContextChars": 14507
       },
       "injectedWorkspaceFiles": [
         {
@@ -536,8 +539,8 @@
           "name": "SOUL.md",
           "path": "/Users/blade/.openclaw/workspace/SOUL.md",
           "missing": false,
-          "rawChars": 1664,
-          "injectedChars": 1664,
+          "rawChars": 2856,
+          "injectedChars": 2856,
           "truncated": false
         },
         {
@@ -727,14 +730,14 @@
         ]
       }
     },
-    "inputTokens": 11127,
-    "outputTokens": 996,
-    "cacheRead": 9298,
-    "cacheWrite": 0,
-    "estimatedCostUsd": 0.01181013,
-    "totalTokens": 12004,
+    "inputTokens": 38,
+    "outputTokens": 76,
+    "cacheRead": 12406,
+    "cacheWrite": 487,
+    "estimatedCostUsd": 0.021935835,
+    "totalTokens": 12931,
     "totalTokensFresh": true,
-    "endedAt": 1774365660023,
-    "runtimeMs": 43553
+    "endedAt": 1774372454290,
+    "runtimeMs": 2789
   }
 }
