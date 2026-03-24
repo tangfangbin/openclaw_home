@@ -1,0 +1,50 @@
+# ==============================================
+# OpenClaw 安装目录 专用 .gitignore
+# 只忽略运行时生成、缓存、敏感、构建产物
+# ==============================================
+
+# 1. 依赖包（必须忽略）
+node_modules/
+
+# 2. 构建/编译输出文件（自动生成）
+dist/
+build/
+.ui/
+.output/
+
+# 3. 日志、临时文件
+*.log
+tmp/
+temp/
+*.pid
+
+# 4. 本地缓存（运行时生成）
+.cache/
+.parcel-cache/
+
+# 5. 敏感信息（绝对不上传 Git）
+.env
+.env.local
+.openclaw/*.key
+.openclaw/*.secret
+.openclaw/*.pem
+.openclaw/credentials/
+.openclaw/tokens/
+
+# 6. 运行时数据（数据库、会话、缓存）
+.openclaw/cache/
+.openclaw/sessions/
+.openclaw/db/*.db
+.openclaw/db/*.sqlite
+
+# 7. 编辑器 / 系统垃圾
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# 8. 包管理器锁文件（单分支可忽略）
+pnpm-lock.yaml
+package-lock.json
+yarn.lock

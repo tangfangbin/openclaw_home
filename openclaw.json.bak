@@ -1,0 +1,126 @@
+{
+  "wizard": {
+    "lastRunAt": "2026-03-24T14:41:05.401Z",
+    "lastRunVersion": "2026.3.23-2",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "minimax-portal:default": {
+        "provider": "minimax-portal",
+        "mode": "oauth"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "minimax-portal": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "models": []
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "minimax-portal/MiniMax-M2.7"
+      },
+      "models": {
+        "minimax-portal/MiniMax-M2": {
+          "alias": "minimax-m2"
+        },
+        "minimax-portal/MiniMax-M2.1": {
+          "alias": "minimax-m2.1"
+        },
+        "minimax-portal/MiniMax-M2.1-highspeed": {
+          "alias": "minimax-m2.1-highspeed"
+        },
+        "minimax-portal/MiniMax-M2.7": {
+          "alias": "minimax-m2.7"
+        },
+        "minimax-portal/MiniMax-M2.7-highspeed": {
+          "alias": "minimax-m2.7-highspeed"
+        },
+        "minimax-portal/MiniMax-M2.5": {
+          "alias": "minimax-m2.5"
+        },
+        "minimax-portal/MiniMax-M2.5-highspeed": {
+          "alias": "minimax-m2.5-highspeed"
+        },
+        "minimax-portal/MiniMax-M2.5-Lightning": {
+          "alias": "minimax-m2.5-lightning"
+        }
+      },
+      "workspace": "/Users/blade/.openclaw/workspace"
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "kimi"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a933d08cc9389cef",
+      "appSecret": "EbAj393REgy69BQtk3c7HdMaFDu1SXbK",
+      "connectionMode": "websocket",
+      "domain": "feishu",
+      "groupPolicy": "disabled"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "71b5d24f269d0dded9d00ed75a7e92fd7203c028bf0a4d11"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "plugins": {
+    "entries": {
+      "moonshot": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "sk-SoxNXJwwjTvYBZvMNTgRLaQGsHIYo4x848Iq4brhfkXcs51J"
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.3.23-2",
+    "lastTouchedAt": "2026-03-24T14:41:05.436Z"
+  }
+}
