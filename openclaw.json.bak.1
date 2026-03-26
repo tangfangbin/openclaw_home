@@ -1,4 +1,14 @@
 {
+  "meta": {
+    "lastTouchedVersion": "2026.3.23-2",
+    "lastTouchedAt": "2026-03-25T16:52:09.441Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-24T14:41:05.401Z",
+    "lastRunVersion": "2026.3.23-2",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
   "auth": {
     "profiles": {
       "minimax-portal:default": {
@@ -50,7 +60,13 @@
     }
   },
   "tools": {
-    "profile": "coding"
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "tavily"
+      }
+    }
   },
   "commands": {
     "native": "auto",
@@ -64,8 +80,8 @@
   "channels": {
     "feishu": {
       "enabled": true,
-      "appId": "cli_a933d08cc9389cef",
-      "appSecret": "EbAj393REgy69BQtk3c7HdMaFDu1SXbK",
+      "appId": "${FEISHU_APP_ID}",
+      "appSecret": "${FEISHU_APP_SECRET}",
       "connectionMode": "websocket",
       "domain": "feishu",
       "groupPolicy": "disabled"
@@ -95,8 +111,34 @@
       ]
     }
   },
-  "meta": {
-    "lastTouchedVersion": "2026.3.23-2",
-    "lastTouchedAt": "2026-03-24T14:39:54.534Z"
+  "plugins": {
+    "entries": {
+      "moonshot": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "${MOONSHOT_API_KEY}",
+            "baseUrl": "https://api.moonshot.cn/v1"
+          }
+        }
+      },
+      "feishu": {
+        "enabled": true
+      },
+      "minimax": {
+        "enabled": true
+      },
+      "brave": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "${BRAVE_API_KEY}"
+          }
+        }
+      },
+      "tavily": {
+        "enabled": true
+      }
+    }
   }
 }

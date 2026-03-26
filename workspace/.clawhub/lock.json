@@ -4,6 +4,34 @@
     "skill-vetter": {
       "version": "1.0.0",
       "installedAt": 1774368961809
+    },
+    "self-improving-agent": {
+      "version": "3.0.6",
+      "installedAt": 1774372862725
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774373041013
+    },
+    "playwright": {
+      "version": "1.0.3",
+      "installedAt": 1774373161941
+    },
+    "powerpoint-pptx": {
+      "version": "1.0.1",
+      "installedAt": 1774374121370
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1774451401831
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1774451648900
+    },
+    "liang-tavily-search": {
+      "version": "1.0.1",
+      "installedAt": 1774456801800
     }
   }
 }

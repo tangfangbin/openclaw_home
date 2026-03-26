@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "f531904d-9abc-41c8-b553-0d83e73a8107",
+      "name": "AI News Daily",
+      "enabled": true,
+      "createdAtMs": 1774445206002,
+      "updatedAtMs": 1774445206002,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "你是一个AI新闻助手。请执行以下任务：1. 运行命令：cd /tmp && node ai-news-final.js 2. 如果成功，将输出保存到 ~/.openclaw/workspace/ai-news/daily-2026-03-25.md 3. 如果失败，尝试用 Playwright 直接抓取量子位(https://www.qbitai.com/)、VentureBeat(https://venturebeat.com/category/ai/)、36氪(https://36kr.com/newsflashes) 的AI新闻 4. 按以下格式整理输出：国内新闻用【🇨🇳 国内AI热点】，国外用【🌍 海外AI热点】，每条格式：序号. 新闻标题（[媒体名称](URL)），文末加上洞察总结（技术趋势、行业趋势、商业机会各3条）5. 最终输出Markdown格式的新闻日报。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_7a1fdc28fc008f1c4787cccb092f3124"
+      },
+      "state": {
+        "nextRunAtMs": 1774483200000
+      }
+    }
+  ]
+}

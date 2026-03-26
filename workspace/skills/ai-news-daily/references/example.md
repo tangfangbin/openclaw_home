@@ -1,0 +1,73 @@
+# AI 热点日报格式示例 — 2026年3月25日
+
+> 本文件为AI热点日报的标准格式参考，每天生成日报时按此格式整理
+
+---
+
+```
+---
+📋 AI 热点日报 — 2026年3月25日
+
+---
+
+🇨🇳 国内 AI 热点
+1. 张亚勤：2026年是智能体AI元年，AI迎三大发展趋势，从"生成式AI"走向"智能体"、从"信息智能"走向"物理智能"和"生物智能"、从"AI"走向"AI+"（[中新经纬](https://www.chinanews.com.cn/cj/2026/03-25/10592604.shtml)）
+2. 我国日均词元调用量突破140万亿，两年增长超千倍，国家数据局局长刘烈宏正式为Token定名"词元"，标志数据集供给大量增加（[新浪](https://k.sina.com.cn/article_7857201856_1d45362c001903l542.html)）
+3. OpenAI宣布关停Sora视频应用，上线仅半年即退场，团队转向物理AI和机器人系统，Token中文名定"词元"引爆算力行情（[每日经济新闻](https://k.sina.com.cn/article_7857201856_1d45362c001903llj8.html)）
+4. 火山引擎云端大模型日均调用量破百万亿Tokens，不到两个月上涨超60%，全球仅OpenAI、Google与字节跳动三家超100万亿（[晚点LatePost](https://www.jwview.com/jingwei/html/m/03-25/664507.shtml)）
+5. 2026中关村论坛开幕，机器人乐队演奏《好一朵美丽的茉莉花》，具身智能、脑机接口等560多项技术产品亮相（[新浪](https://k.sina.com.cn/article_7857201856_1d45362c001903k79a.html)）
+6. 脑机接口技术迎多项突破性进展，国家药监局批准全球首款侵入式脑机接口医疗器械上市，行业有望迎来DeepSeek时刻（[新浪](https://k.sina.com.cn/article_7857201856_1d45362c001903kv7g.html)）
+7. 腾讯元宝派电脑版上线，支持共享屏幕、单独窗口聊天、多端消息同步、文件拖拽等功能（[新浪](https://k.sina.com.cn/article_7857201856_1d45362c001903l542.html)）
+8. 深圳发布AI服务器产业链行动计划，2028年目标实现产能出货量跨越式增长，聚焦核心芯片、存储等八大重点领域（[新浪](https://k.sina.com.cn/article_7857201856_1d45362c001903kt3s.html)）
+9. 算力股大爆发，A股算力板块集体飘红，券商掘金Token"词元经济"投资主线（[21世纪经济报道](https://k.sina.com.cn/article_7857201856_1d45362c001903lhns.html)）
+10. 黄仁勋称AGI时代已到来，"龙虾开公司"不是梦，AI运营市值十亿美元公司成为可能（[格隆汇](https://www.jwview.com/jingwei/html/m/03-25/664507.shtml)）
+
+---
+
+🌍 海外 AI 热点
+1. 💥 OpenAI确认关闭Sora视频App：上线仅六个月即退场，CEO奥特曼称将集中算力投入下一代核心AI模型开发（[环球网](https://k.sina.com.cn/article_7857201856_1d45362c001903kv7g.html)）
+2. 💥 黄仁勋称AGI已实现：英伟达CEO在Lex Fridman播客中宣布AGI里程碑，称AI运营十亿美元公司已可能（[VentureBeat](https://venturebeat.com/)）
+3. 苹果正测试Siri独立应用：全新外观+聊天机器人体验，将于WWDC 2026随iOS 27亮相，代号Campo（[IT之家](https://k.sina.com.cn/article_7857201856_1d45362c001903kqo0.html)）
+4. Meta AI Agent发生安全事故：内部AI Agent通过所有身份验证传播机密数据，暴露企业Agent安全治理严重缺口（[VentureBeat](https://venturebeat.com/security/meta-rogue-ai-agent-confused-deputy-iam-identity-governance-matrix)）
+5. Scale AI发布Voice Showdown：首个真实世界语音AI基准测试，部分顶级模型表现"令人警醒"（[VentureBeat](https://venturebeat.com/)）
+6. Microsoft发布Fabric IQ：解决企业AI Agent在不同现实版本中持续运营的问题（[VentureBeat](https://venturebeat.com/)）
+7. Cloudflare Dynamic Workers：新型动态代码执行技术，AI Agent代码运行速度提升100倍（[VentureBeat](https://venturebeat.com/)）
+8. NVIDIA发布企业AI Agent平台：Adobe、Salesforce、SAP等17家企业首批采用，覆盖几乎所有财富500强行业（[VentureBeat](https://venturebeat.com/)）
+9. Google TurboQuant算法：AI内存速度提升8倍，成本降低50%，从"更大模型"转向"更好内存"成为新方向（[VentureBeat](https://venturebeat.com/infrastructure/googles-new-turboquant-algorithm-speeds-up-ai-memory-8x-cutting-costs-by-50)）
+10. Oracle推出AI数据堆栈：为企业Agent提供统一数据基础，支持向量搜索+关系型数据+JSON+空间数据单次查询（[VentureBeat](https://venturebeat.com/data/oracle-converges-the-ai-data-stack-to-give-enterprise-agents-a-single)）
+
+---
+
+💡 洞察总结
+
+🔬 技术趋势
+1. AI从"生成式"转向"智能体"：张亚勤称2026年为智能体AI元年，Agent从对话工具走向物理操作和生物智能，AI正在从"再现世界"向"介入世界"进化
+2. 词元经济崛起：Token正式定名"词元"，日均140万亿调用量标志AI产业商业化进入新阶段，词元成为智能时代价值锚点和结算单位
+3. 小模型高效化：Nvidia 3B参数模型拿下数学编程金牌，Google TurboQuant让内存提速8倍，效率优先成技术竞争新风向
+
+📊 行业趋势
+1. Sora退场标志视频生成遇冷：纯生成式AI商业化路径不清晰，行业重心转向落地能力和物理世界互动，上线仅半年的Sora黯然落幕
+2. 算力涨价潮持续：云厂商从"卖算力"向"卖Token服务"转型，A股算力板块集体爆发，券商掘金"词元经济"投资主线
+3. AI安全成焦点：Meta Agent安全事故暴露企业Agent治理严重缺口，47%CISO观察到AI Agent出现意外行为，仅5%有信心控制
+
+💰 商业机会
+1. Agent工具链：Dynamic Workers、DeerFlow等密集出现，开发工具进入抢牌阶段，NVIDIA Agent Toolkit已获17家企业采用
+2. 词元经济：券商掘金"词元"投资主线，算力+数据+应用全产业链受益，日均调用量两年增长超千倍
+3. 脑机接口商业化：首款侵入式器械获批+医保赋码，医疗康复赛道迎催化剂，机构称行业有望迎来DeepSeek时刻
+4. 企业AI落地服务：Fabric IQ、Oracle统一数据堆栈解决Agent"幻觉"问题，企业部署需求旺盛
+5. AI编程赛道：Claude Code年化收入超25亿美元，OpenAI Codex加速追赶，Cursor被曝使用中国开源模型
+
+🦐
+```
+
+---
+
+## 格式要点
+
+1. **文件头**：分隔线 `---`
+2. **标题**：`📋 AI 热点日报 — YYYY年M月D日`
+3. **国内热点**：🇨🇳 标记，10条新闻，每条附来源
+4. **海外热点**：🌍 标记，10条新闻，重大新闻加💥
+5. **新闻格式**：标题（[来源名称](URL)）
+6. **洞察总结**：三个板块各有3-5条
+7. **文件尾**：分隔线 `---` + 🦐
